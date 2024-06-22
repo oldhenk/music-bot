@@ -1,0 +1,21 @@
+{
+  "extends": "tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "declarationMap": false,
+    "sourceMap": false,
+    "declaration": false,
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "#bot/*": ["src/*.js"]
+    }
+  },
+  "include": ["src"]
+}
