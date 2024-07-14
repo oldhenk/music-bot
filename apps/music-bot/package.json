@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@discord-player/extractor": "4.4.6-dev.0",
-    "@distube/ytdl-core": "^4.13.4",
+    "@distube/ytdl-core": "^4.13.5",
     "@socket.io/redis-adapter": "^8.2.1",
     "@trpc/server": "^10.43.1",
     "commandkit": "^0.1.6",
