@@ -26,7 +26,19 @@ and more...
 
 ## Setup with Docker
 
-- TODO
+- Pull the [docker image](https://hub.docker.com/repository/docker/oldhenk/groovy2/general)
+- Expose ports 3000 and 5000
+- Edit environment variables:
+   - DISCORD_TOKEN="YOUR_DISCORD_TOKEN_HERE"
+   - DATABASE_URL="mongodb url"
+   - REDIS_HOST="your-redis-host"
+   - REDIS_PORT="redis port"
+   - REDIS_PASSWORD="your-redis-password"
+   - COREPACK_ENABLE_STRICT=0
+- (optional) if you want other users from access the web interface change local to you domain or ip(dont forget to port forward)
+   - WEB_INTERFACE_URL="http://local:3000"
+   - NEXT_PUBLIC_GATEWAY_URL="ws://localhost:5000"
+   - NEXT_PUBLIC_BACKEND_URL="http://localhost:5000"
 
 ## Manual setup
 
